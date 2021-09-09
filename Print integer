@@ -1,0 +1,9 @@
+// Write a program to print integer number entered by user
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter the number\n");
+    scanf("%d",&a);
+    printf("The number entered by the user is %d",a);
+}
