@@ -1,0 +1,12 @@
+// Write a program to add two integer entered by the user
+#include<stdio.h>
+int main()
+{
+    int a,b,result;
+    printf("Enter the first number:\n");
+    scanf("%d",&a);
+    printf("Enter the Second number:\n");
+    scanf("%d",&b);
+    result=a+b;
+    printf("Your sum is: %d",result);
+}
