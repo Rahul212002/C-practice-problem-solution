@@ -1,0 +1,17 @@
+// How to write a program to find the integer is odd or even;
+#include<stdio.h>
+int main(int argc, char const *argv[])
+{
+    int a;
+    printf("Enter a number to find the integer is odd or even\n");
+    scanf("%d",&a);
+    if (a%2==0)
+    {
+        printf("The number is even\n");
+    }
+    else{
+        printf("The number is odd\n");
+    }
+    
+    return 0;
+}
