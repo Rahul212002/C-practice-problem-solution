@@ -1,0 +1,10 @@
+// How to swap two number
+#include<stdio.h>
+int main(){
+    int a=5,b=6,temp;
+    printf("The number before swap a is %d and b is %d\n",a,b);
+    temp=a;
+    a=b;
+    b=temp;
+    printf("The number after swap a is %d and b is %d\n",a,b);
+}
