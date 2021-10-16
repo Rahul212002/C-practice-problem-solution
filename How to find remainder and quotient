@@ -1,0 +1,14 @@
+// How to find remainder and quotient
+#include<stdio.h>
+int main(int argc, char const *argv[])
+{
+    int a,b,c,d;
+    printf("Enter the divisor\n");
+    scanf("%d",&a);
+    printf("Enter the divident\n");
+    scanf("%d",&b);
+    c=b/a;
+    d=b%a;
+    printf("Quotient is %d amnd remainder is %d",c,d);
+    return 0;
+}
